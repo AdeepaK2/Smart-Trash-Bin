@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-const char* ssid = "Gala";
-const char* password = "adeepaisbest";
+const char* ssid = "Gala";//YOUR WIFI NAME
+const char* password = "adeepaisbest";PASSWORD
 
 const char* host = "api.thingspeak.com";
-const char* apiKey = "OQLIP4536EF30WRI";
+const char* apiKey = "YOURAPI";
 
 void setup() {
   Serial.begin(9600); // Initialize serial communication with the ATmega328P
